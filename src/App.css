@@ -43,7 +43,8 @@
     align-items: center;
     position: relative;
     background: linear-gradient(230deg, rgba(0, 0, 0, 0.363),rgba(0, 0, 0, 0.483)), url("../src/assets/1.jpg");
-    background-position: center;
+    background-position:center;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -81,9 +82,11 @@
     margin-top: 10px;
 }
 
-form .btn {
+.login form .btn {
     width: 100%;
 }
+
+
 
 @media screen and (max-width:600px) {
     .navbar_c {
